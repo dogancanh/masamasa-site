@@ -45,13 +45,14 @@
   <header>
     <a class="brand" href="index.html"><span class="mk"></span>MasaMasa</a>
     <h1>Gizlilik &amp; <span class="accent">Koşullar</span></h1>
-    <p class="sub">Son güncelleme: 28 Temmuz 2026</p>
+    <p class="sub">Son güncelleme: 18 Ekim 2026</p>
   </header>
 
   <div class="tldr">
     <strong>Özet:</strong> MasaMasa bir düğün/etkinlik masa-planı uygulamasıdır. Davetli listeniz ve
     etkinlik bilgileriniz <strong>cihazınızda ve kendi iCloud hesabınızda</strong> saklanır. Fotoğraflarınız
-    ve rehberiniz <strong>cihazınızdan çıkmaz</strong>. Reklam yok, üçüncü-taraf izleme/analitik yok.
+    ve rehberiniz <strong>cihazınızdan çıkmaz</strong>. Reklam ve izleme yok; yalnızca kimliğinizle
+    ilişkilendirilmeyen anonim kullanım istatistikleri toplanır.
     Yalnızca “kişiye özel davet linki (RSVP)” özelliğini kullanırsanız, davet oluşturmak için gereken bilgiler
     MasaMasa sunucusuna iletilir (aşağıda ayrıntılı).
   </div>
@@ -94,8 +95,14 @@
 
     <h2>6. Üçüncü taraflar, reklam ve izleme</h2>
     <ul>
-      <li>Reklam ağı, üçüncü-taraf analitik veya izleme SDK’sı <strong>kullanmıyoruz</strong>.</li>
-      <li>Uygulama içi satın almalar Apple App Store üzerinden gerçekleşir; ödeme bilgilerinizi MasaMasa görmez.</li>
+      <li>Reklam ağı veya izleme (tracking) SDK’sı <strong>kullanmıyoruz</strong>; verileriniz satılmaz, reklam amacıyla paylaşılmaz.</li>
+      <li><strong>Anonim kullanım istatistikleri (TelemetryDeck, Almanya):</strong> hangi özelliklerin kullanıldığını anlamak için
+      uygulama açılışı, etkinlik oluşturma, dışa aktarma gibi olaylara ait anonim sinyaller, cihaz modeli, sistem ve
+      uygulama sürümü gibi teknik bilgilerle birlikte gönderilir. Adınız, davetli
+      listeniz veya iletişim bilgileriniz gönderilmez; cihaz tanımlayıcısı gönderilmeden önce cihazda tek yönlü olarak karıştırılır.</li>
+      <li><strong>Abonelik yönetimi (RevenueCat):</strong> aboneliğinizin durumunu doğrulamak için satın alma bilgileri (ürün,
+      tarih, işlem kimliği) ve rastgele üretilmiş anonim bir kullanıcı kimliği RevenueCat’e iletilir.</li>
+      <li>Uygulama içi satın almalar Apple App Store üzerinden gerçekleşir; ödeme bilgilerinizi (kart vb.) MasaMasa veya RevenueCat görmez.</li>
     </ul>
 
     <h2>7. Çocukların gizliliği</h2>
@@ -115,9 +122,15 @@
 
     <h2>10. Uygulama içi satın alımlar</h2>
     <ul>
-      <li><strong>MasaMasa Pro (Ömürlük):</strong> tek seferlik ödeme; tüm etkinliklerinizde tüm özellikler açılır.</li>
-      <li><strong>Düğün Sezonu (3 Ay):</strong> tek ödeme, yenilenmeyen bir dönem. <strong>Otomatik yenilenmez</strong>; süre bitince ücretsiz katmana dönersiniz.</li>
+      <li><strong>Ücretsiz sürüm:</strong> 1 etkinlik, 40 davetli ve 5 masa.</li>
+      <li><strong>MasaMasa Premium:</strong> aylık, 3 aylık ve yıllık <strong>otomatik yenilenen</strong> abonelik; sınırsız etkinlik,
+      davetli ve masa, ortak düzenleme, kişiye özel LCV davet linki, filigransız PDF ve CSV dışa aktarma açılır.</li>
+      <li>Ödeme, satın alma onaylandığında Apple Kimliği hesabınızdan alınır.</li>
+      <li>Abonelik, dönem bitiminden en az 24 saat önce iptal edilmezse aynı süre ve fiyatla otomatik olarak yenilenir;
+      yenileme ücreti dönem bitiminden önceki 24 saat içinde tahsil edilir.</li>
+      <li>Aboneliğinizi App Store hesap ayarlarınızdan yönetebilir, otomatik yenilemeyi kapatabilirsiniz; iptal, içinde bulunulan dönemin sonunda geçerli olur.</li>
       <li>Ödemeler, satın alma ve iade işlemleri Apple App Store hesabınız üzerinden yürür ve Apple’ın koşullarına tabidir.</li>
+      <li>Bu koşullara ek olarak Apple’ın <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Standart Lisans Sözleşmesi (EULA)</a> geçerlidir.</li>
     </ul>
 
     <h2>11. İçeriğinizden sorumluluk</h2>
